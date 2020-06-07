@@ -2,6 +2,7 @@ package jhcool1988.spring.mvc.service;
 
 
 import jhcool1988.spring.mvc.dao.MallsDAO;
+import jhcool1988.spring.mvc.vo.MallsVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,5 +18,10 @@ public class MallsService {
         this.mdao = mdao;
     }
 
+
+    public ArrayList<MallsVO> showMalls() {
+        return (ArrayList<MallsVO>)
+                mdao.selectMalls();
+    }
 
 }

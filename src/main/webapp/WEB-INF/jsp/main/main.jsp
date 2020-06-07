@@ -1,3 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <head lang="ko">
     <meta charset="utf-8">
@@ -5,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet">
     <style>
 
         #topnav {height: 75px; padding: 1rem; color: white; background: teal;  font-weight: bold; display: flex; justify-content: space-between;
@@ -214,42 +216,13 @@
                     <a href="#"></a>
                 </figure>
 
-                    <span>이름</span>
-                    <span>할인율</span>
-                    <span>가격</span>
+                <c:forEach var="m" items="${mllist}">
+                    <span>${m.m_name}</span>
+                    <span>${m.m_id}</span>
+                    <span>${m.m_style}</span>
+                </c:forEach>
                 </body>
             </div>
-
-
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg2" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg3" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg4" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
         </div>
 
 

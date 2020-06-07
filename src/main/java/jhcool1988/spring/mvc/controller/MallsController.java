@@ -17,22 +17,23 @@ public class MallsController {
     private MallsService msrv;
 
     @Autowired
-    public MallsController(MallsService bsrv) {
-        this.msrv = bsrv;
+    public MallsController(MallsService msrv) {
+        this.msrv = msrv;
     }
 
     // 목록보기
-    @RequestMapping(value = "/jsp/main")
-    public ModelAndView list(String cp) {
+    @RequestMapping(value = "main/main")
+    public ModelAndView list() {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("jsp/main"); // 뷰이름 지정
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "../main/main.jsp"); // 뷰이름 지정
 
+        ArrayList<MallsVO> mllist = msrv.showMalls();
+        mv.addObject("mllist", mllist);
 
         return mv;
     }
-
-
 
 }

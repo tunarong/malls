@@ -1,4 +1,4 @@
-package main.java.jhcool1988.spring.mvc.service;
+package jhcool1988.spring.mvc.service;
 
 
 import org.apache.commons.fileupload.FileItem;

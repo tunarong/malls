@@ -1,85 +1,94 @@
-package main.java.jhcool1988.spring.mvc.vo;
+package jhcool1988.spring.mvc.vo;
 
 import java.io.Serializable;
 
 // 액션태그에 사용할 자바빈즈 클래스
 public class BoardVO implements Serializable {
 
-    private String bno;
-    private String title;
-    private String userid;
-    private String regdate;
-    private String thumbup;
-    private String views;
-    private String contents;
+    private String ex_no;
+    private String ex_class;
+    private String ex_malls;
+    private String ex_title;
+    private String ex_id;
+    private String ex_reg;
+    private String ex_contents;
+    private String ex_code;
 
     public BoardVO() {
     }
 
-    public BoardVO(String bno, String title, String userid, String regdate, String thumbup, String views, String contents) {
-        this.bno = bno;
-        this.title = title;
-        this.userid = userid;
-        this.regdate = regdate;
-        this.thumbup = thumbup;
-        this.views = views;
-        this.contents = contents;
+    public BoardVO(String ex_no, String ex_class, String ex_malls, String ex_title, String ex_id, String ex_reg, String ex_contents, String ex_code) {
+        this.ex_no = ex_no;
+        this.ex_class = ex_class;
+        this.ex_malls = ex_malls;
+        this.ex_title = ex_title;
+        this.ex_id = ex_id;
+        this.ex_reg = ex_reg;
+        this.ex_contents = ex_contents;
+        this.ex_code = ex_code;
     }
 
-    public String getBno() {
-        return bno;
+    public String getEx_no() {
+        return ex_no;
     }
 
-    public void setBno(String bno) {
-        this.bno = bno;
+    public void setEx_no(String ex_no) {
+        this.ex_no = ex_no;
     }
 
-    public String getTitle() {
-        return title;
+    public String getEx_class() {
+        return ex_class;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setEx_class(String ex_class) {
+        this.ex_class = ex_class;
     }
 
-    public String getUserid() {
-        return userid;
+    public String getEx_malls() {
+        return ex_malls;
     }
 
-    public void setUserid(String userid) {
-        this.userid = userid;
+    public void setEx_malls(String ex_malls) {
+        this.ex_malls = ex_malls;
     }
 
-    public String getRegdate() {
-        return regdate;
+    public String getEx_title() {
+        return ex_title;
     }
 
-    public void setRegdate(String regdate) {
-        this.regdate = regdate;
+    public void setEx_title(String ex_title) {
+        this.ex_title = ex_title;
     }
 
-    public String getThumbup() {
-        return thumbup;
+    public String getEx_id() {
+        return ex_id;
     }
 
-    public void setThumbup(String thumbup) {
-        this.thumbup = thumbup;
+    public void setEx_id(String ex_id) {
+        this.ex_id = ex_id;
     }
 
-    public String getViews() {
-        return views;
+    public String getEx_reg() {
+        return ex_reg;
     }
 
-    public void setViews(String views) {
-        this.views = views;
+    public void setEx_reg(String ex_reg) {
+        this.ex_reg = ex_reg;
     }
 
-    public String getContents() {
-        return contents;
+    public String getEx_contents() {
+        return ex_contents;
     }
 
-    public void setContents(String contents) {
-        this.contents = contents;
+    public void setEx_contents(String ex_contents) {
+        this.ex_contents = ex_contents;
     }
 
+    public String getEx_code() {
+        return ex_code;
+    }
+
+    public void setEx_code(String ex_code) {
+        this.ex_code = ex_code;
+    }
 }

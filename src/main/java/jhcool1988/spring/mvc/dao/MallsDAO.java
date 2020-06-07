@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-@Repository("bdao")
+@Repository("mdao")
 public class MallsDAO {
 
     private JdbcTemplate jdbcTemplate;
@@ -31,10 +31,7 @@ public class MallsDAO {
     // 골라서 동적배열에 담아 반환함
     // 스프링에서는 RowMapper라는 클래스를 이용해서
     // select문의 결과를 처리할 수 있음
-    public List<MallsVO> selectMalls(int snum) {
-
-
-        Object[] params = new Object[] { snum };
+    public List<MallsVO> selectMalls() {
 
         RowMapper<MallsVO> mapper = new MallsRowMapper();
         // query 메서드를 통해 결과값을 가져올때
@@ -47,7 +44,7 @@ public class MallsDAO {
         // 개발자가 작성하는 RowMapper 클래스는
         // RowMapper 인터페이스를 구현해서 생성해야 함
 
-        return jdbcTemplate.query(selectMallsSQL, mapper, params);
+        return jdbcTemplate.query(selectMallsSQL, mapper);
     }
 
 

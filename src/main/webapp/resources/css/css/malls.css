@@ -1,0 +1,83 @@
+
+/*공통 header*/
+#logo img{width : 200px; height: 200px; margin:0px; padding:0; float: left;}
+#topmenu {width: 900px; height: 120px; float: right; margin: 0; padding: 0;}
+#search {margin-left: 200px; margin-top:50px; top:100px;}
+#searchbar {width: 250px;}
+
+#hmenu { list-style-type: none; float: right; margin-top: 0px; margin-top:20px;}
+#hmenu li {float: left;}
+
+#hr1 {width: 900px; float: right; margin: 0; padding: 0;}
+#nav {margin: 0px;}
+#nmenu {list-style-type: none; top: 20px; float: left; margin-top: 20px;}
+#nmenu li {float: left;}
+
+
+/*제품상세페이지*/
+/*제품 대표 이미지*/
+.main_img {/*border: 1px solid blue;*/ max-height: 700px;}
+.slideimg {max-width: 80%; max-height: 550px;}
+.sale-flash {background-color: #b391d6;}
+
+/*제품 옵션*/
+.item_name {font-size: 40px; font-weight: bold;}
+.product-price {font-size: 40px;}
+.sale_price {color: #b391d6;}
+.item_option {font-size: 25px; line-height: 2;}
+.option_text {float:left;}
+.option_ul {list-style: none; text-align: end;}
+.select_ul {list-style: none;}
+.select_box {width: 180px;}
+.button-lightpurple {background-color: #b391d6;}
+
+/*상품디테일*/
+.item_info {/*border: 1px solid black;*/ margin-top: 30px;}
+.detail_title {margin: 30px; font-size: 50px;}
+.item_detail {text-align: center;}
+.item_img {list-style: none;}
+
+/*리뷰, 문의사항*/
+.reviewline, .QnAline {margin-bottom: 10px;}
+.reviewimg, .QnAimg {height:100px; width:100px;}
+.reviewpreview, .QnApreview {height: 100%; padding-top: 10px;}
+.reviewbtn {float: right; margin-top: -10px;}
+.review_star {float:right; width:180px;}
+.review_title, .qnatitle {width:100%;}
+.review_size {margin-top: 20px;}
+.item_detail img {margin-top: 20px;}
+.qnapwd {margin-top: 5px;}
+
+/*footer*/
+.footerlogo {height: 100px; float: left;}
+.copy {margin-top: 50px;}
+
+/*리모컨*/
+.rmt {width: 50px; height: 50px; background-color: #b391d6; position: fixed;}
+.rmttop {bottom: 190px; right: 30px;}
+.rmtinfo {bottom: 150px; right: 30px;}
+.rmtrvw {bottom: 110px; right: 30px;}
+.rmtqna {bottom: 70px; right: 30px;}
+.rmtbtm {bottom: 30px; right: 30px;}
+
+/*민주 - 리뷰*/
+.starR{
+    background: url('http://miuu227.godohosting.com/images/icon/ico_review.png') no-repeat right 0;
+    background-size: auto 100%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.starR.on{background-position:0 0;}
+
+
+
+/*cart 장바구니*/
+.cart_thead {border-top: 2px solid dimgray;}
+.cart_tbody {border-bottom: 2px solid dimgray;}
+
+.price_table {border: 1px solid dimgray; width: 100%; height: 100px;}
+.price_info {text-align: center;}
+.price_total {text-align: center;}
