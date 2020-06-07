@@ -1,7 +1,7 @@
 <%@ page pageEncoding="UTF-8" %>
 <!-- Footer
 ============================================= -->
-<a name="bottom"></a>
+
 <!-- Footer
 ============================================= -->
 <footer id="footer" class="dark">

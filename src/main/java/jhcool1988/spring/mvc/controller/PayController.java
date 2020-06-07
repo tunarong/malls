@@ -32,6 +32,66 @@ public class PayController {
         return mv;
     }
 
+    // 66걸즈
+    @RequestMapping(value = "main/66girls")
+    public ModelAndView _66girls() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "../main/66girls.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // 고고씽1
+    @RequestMapping(value = "main/ggsing_1")
+    public ModelAndView ggsing1() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "../main/ggsing_1.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // 고고씽2
+    @RequestMapping(value = "main/ggsing_2")
+    public ModelAndView ggsing2() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "../main/ggsing_2.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // 핫핑1
+    @RequestMapping(value = "main/hotpink_1")
+    public ModelAndView hotpink1() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "../main/hotpink_1.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // 핫핑2
+    @RequestMapping(value = "main/hotpink_2")
+    public ModelAndView hotpink2() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "../main/hotpink_2.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
     // 장바구니
     @RequestMapping(value = "main/cart")
     public ModelAndView cart() {

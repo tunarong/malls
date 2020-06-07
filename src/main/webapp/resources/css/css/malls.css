@@ -53,7 +53,7 @@
 .copy {margin-top: 50px;}
 
 /*리모컨*/
-.rmt {width: 50px; height: 50px; background-color: #b391d6; position: fixed;}
+.rmt {width: 50px; height: 50px; background-color: #b391d6; position: fixed; z-index: 1;}
 .rmttop {bottom: 190px; right: 30px;}
 .rmtinfo {bottom: 150px; right: 30px;}
 .rmtrvw {bottom: 110px; right: 30px;}

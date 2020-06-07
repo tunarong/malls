@@ -29,7 +29,9 @@
     <%-- 글번호 계산하기 --%>
     <c:set var="sbno"
            value="${bdcnt - (cp-1) * perPage}" />
-
+    <head>
+        <title>교환/판매 게시판</title>
+    </head>
 <body class="stretched">
 
 
