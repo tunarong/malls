@@ -11,6 +11,7 @@
 
   <div class="content-wrap nopadding">
 
+    <%--배경--%>
     <div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-color: #444;"></div>
 
     <div class="section nobg full-screen nopadding nomargin">
@@ -33,10 +34,11 @@
                   <input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" />
                 </div>
 
+                <%--버튼들--%>
                 <div class="col_full nobottommargin" style="margin-top: 40px;">
                   <a href="/join.do"><button class="button nomargin">회원가입</button></a>
 
-                  <button class="button nomargin" style="float:right;">로그인</button>
+                  <a href="/main/main.do"><button class="button nomargin" style="float:right;">로그인</button></a>
                 </div>
 
               </form>

@@ -25,10 +25,10 @@
       <div style="text-align: center; margin-left: 100px;">
         <img src="/resources/img/보라수지.png" style="width: 70%; z-index: -1;">
         <div style="margin: -180px;">
-          <button type="button" class="button button-rounded go2login"
+          <a href="/login.do"><button type="button" class="button button-rounded go2login"
                                       style="background-color: #e2cfff; border: 1px solid whitesmoke; color: #b391d6;
                                          top: 20px; right: 300px;z-index: 1;">
-            <i class="fa fa-heart" style="color: #b391d6;"></i> 로그인</button>
+            <i class="fa fa-heart" style="color: #b391d6;"></i> 로그인</button></a>
         </div>
       </div>
 
