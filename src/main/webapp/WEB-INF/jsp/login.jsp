@@ -11,7 +11,7 @@
 
   <div class="content-wrap nopadding">
 
-    <div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #444;"></div>
+    <div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-color: #444;"></div>
 
     <div class="section nobg full-screen nopadding nomargin">
         <div class="container vertical-middle divcenter clearfix">
@@ -34,15 +34,15 @@
                 </div>
 
                 <div class="col_full nobottommargin" style="margin-top: 40px;">
-                  <a href="/join.do"><button class="button button-3d nomargin">회원가입</button></a>
+                  <a href="/join.do"><button class="button nomargin">회원가입</button></a>
 
-                  <button class="button button-3d nomargin" style="float:right;">로그인</button>
+                  <button class="button nomargin" style="float:right;">로그인</button>
                 </div>
 
               </form>
 
               <div class="line line-sm"></div>
-              <div style="margin-top: 25px;">
+              <div class="loginbtm" style="margin-top: 25px;">
                 <a href="/main/main.do" class="fright">회원가입 없이 둘러보기</a>
                 <a href="#" class="fleft">아이디/비밀번호 찾기</a>
               </div>
@@ -58,8 +58,6 @@
   </div>
 
 </section><!-- #content end -->
-<!-- Go To Top
-============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
+
 
 </body>

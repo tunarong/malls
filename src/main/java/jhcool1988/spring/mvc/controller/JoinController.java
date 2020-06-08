@@ -18,7 +18,7 @@ public class JoinController {
         this.jsrv = jsrv;
     }
 
-    //
+    //join
     @RequestMapping(value = "join")
     public ModelAndView join() {
 

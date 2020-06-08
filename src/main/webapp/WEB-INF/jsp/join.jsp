@@ -521,7 +521,7 @@ NICE신용평가정보㈜(이하 “대행사”)가 “대행사”에서 제�
           <div class="clear"></div>
 
           <div class="col_full nobottommargin" style=" margin-top: 50px; margin-left: 250px;">
-            <button class="button button-3d button-black nomargin" id="register-form-submit" name="register-form-submit" value="register">가입하기</button>
+            <button class="button nomargin" id="register-form-submit" name="register-form-submit" value="register">가입하기</button>
           </div>
 
 

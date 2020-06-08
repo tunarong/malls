@@ -13,6 +13,12 @@
 #nmenu {list-style-type: none; top: 20px; float: left; margin-top: 20px;}
 #nmenu li {float: left;}
 
+/*b4u*/
+.go2login:hover {background-color: whitesmoke; color: #b391d6;}
+
+/*login*/
+.loginbtm a {color: black;}
+.loginbtm a:hover {color: #b391d6;}
 
 /*제품상세페이지*/
 /*제품 대표 이미지*/
@@ -50,7 +56,12 @@
 
 /*footer*/
 .footerlogo {height: 100px; float: left;}
-.copy {margin-top: 50px;}
+.slink {color: darkgray; margin-top: 5px; margin-left: 15px;}
+.fb:hover {color: #004aff}
+.instar:hover {color: #ff1c73}
+.kakao:hover {color: yellow}
+.ytube:hover {color: red;}
+.twt:hover {color: deepskyblue;}
 
 /*리모컨*/
 .rmt {width: 50px; height: 50px; background-color: #b391d6; position: fixed; z-index: 1;}
