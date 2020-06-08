@@ -49,8 +49,8 @@
 							<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true" >
 								<div class="flexslider">
 									<div class="slider-wrap" data-lightbox="gallery">
-										<div class="slide" data-thumb="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG"><a href="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG"><a href="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG"><a href="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG"><a href="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
 									</div>
 								</div>
 							</div>
@@ -149,54 +149,54 @@
 				<!--상세정보-->
 				<div class="item_detail">
 					<ul class="item_img">
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠1.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠2.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠3.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠4.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠5.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠6.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠7.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠8.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠9.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠11.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠12.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠13.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠14.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠15.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠16.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠17.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠18.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠20.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠21.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠22.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠23.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠24.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠25.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠26.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠27.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠28.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠29.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠30.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠31.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠32.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠33.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠34.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠35.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠36.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠37.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠38.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠39.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠40.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠41.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠42.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠43.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠44.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠45.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠46.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠47.PNG"></li>
-						<li><img src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠48.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠1.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠2.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠3.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠4.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠5.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠6.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠7.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠8.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠9.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠11.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠12.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠13.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠14.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠15.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠16.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠17.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠18.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠19.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠20.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠21.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠22.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠23.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠24.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠25.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠26.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠27.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠28.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠29.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠30.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠31.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠32.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠33.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠34.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠35.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠36.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠37.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠38.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠39.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠40.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠41.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠42.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠43.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠44.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠45.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠46.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠47.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠48.PNG"></li>
 					</ul>
 				</div>
 				<!--//상세정보-->
@@ -223,7 +223,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -244,7 +244,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -271,7 +271,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -292,7 +292,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -319,7 +319,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -340,7 +340,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -504,7 +504,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -525,7 +525,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -552,7 +552,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -573,7 +573,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -600,7 +600,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -621,7 +621,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 

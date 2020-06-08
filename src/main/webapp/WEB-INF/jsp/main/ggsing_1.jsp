@@ -49,9 +49,9 @@
 							<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true" >
 								<div class="flexslider">
 									<div class="slider-wrap" data-lightbox="gallery">
-										<div class="slide" data-thumb="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG"><a href="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/ggsingMain1/ggsingMain1베이직끈나시8.PNG"><a href="../img/ggsingMain1/ggsingMain1베이직끈나시8.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/ggsingMain1/ggsingMain1베이직끈나시8.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/ggsingMain1/ggsingMain1베이직끈나시25.PNG"><a href="../img/ggsingMain1/ggsingMain1베이직끈나시25.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/ggsingMain1/ggsingMain1베이직끈나시25.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG"><a href="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/ggsingMain1/ggsingMain1베이직끈나시8.PNG"><a href="/resources/img/ggsingMain1/ggsingMain1베이직끈나시8.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시8.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/ggsingMain1/ggsingMain1베이직끈나시25.PNG"><a href="/resources/img/ggsingMain1/ggsingMain1베이직끈나시25.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시25.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
 									</div>
 								</div>
 							</div>
@@ -65,8 +65,8 @@
 						<!-- Product Single - Price
                             ============================================= -->
 						<div style="padding-left: 20px;">
-							<div class="item_name">샤프란 가디건</div><!-- Product Single - Price End -->
-							<div class="product-price"><del>29000원</del> <ins class="sale_price">19000원</ins></div><!-- Product Single - Price End -->
+							<div class="item_name">베이직 끈나시</div><!-- Product Single - Price End -->
+							<div class="product-price"><del>5900원</del> <ins class="sale_price">4900원</ins></div><!-- Product Single - Price End -->
 
 
 							<!-- Product Single - Rating
@@ -150,43 +150,43 @@
 				<!--상세정보-->
 				<div class="item_detail">
 					<ul class="item_img">
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시1.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시2.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시3.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시4.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시5.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시6.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시8.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시9.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시10.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시11.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시12.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시13.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시14.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시15.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시16.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시17.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시18.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시19.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시20.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시21.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시22.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시23.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시24.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시25.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시26.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시27.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시28.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시29.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시30.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시31.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시32.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시33.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시34.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시35.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시36.PNG"></li>
-						<li><img src="../img/ggsingMain1/ggsingMain1베이직끈나시37.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시1.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시2.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시3.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시4.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시5.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시6.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시8.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시9.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시10.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시11.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시12.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시13.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시14.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시15.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시16.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시17.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시18.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시19.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시20.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시21.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시22.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시23.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시24.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시25.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시26.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시27.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시28.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시29.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시30.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시31.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시32.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시33.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시34.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시35.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시36.PNG"></li>
+						<li><img src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시37.PNG"></li>
 					</ul>
 				</div>
 				<!--//상세정보-->
@@ -213,7 +213,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -234,7 +234,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -261,7 +261,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -282,7 +282,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -309,7 +309,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -330,7 +330,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -494,7 +494,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -515,7 +515,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -542,7 +542,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -563,7 +563,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -590,7 +590,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -611,7 +611,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain1/ggsingMain1베이직끈나시7.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 

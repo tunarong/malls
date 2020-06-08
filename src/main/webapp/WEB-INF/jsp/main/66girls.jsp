@@ -1,4 +1,7 @@
 <%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%--<c:set var="baseurl" value="http://localhost:8080/main/commonunique.do" />--%>
 
 <head>
 	<title>66걸즈</title>
@@ -49,8 +52,8 @@
 							<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true" >
 								<div class="flexslider">
 									<div class="slider-wrap" data-lightbox="gallery">
-										<div class="slide" data-thumb="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG"><a href="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/66girlsMain1/66girlsMain1샤프란가디건39.PNG"><a href="../img/66girlsMain1/66girlsMain1샤프란가디건39.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/66girlsMain1/66girlsMain1샤프란가디건39.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG"><a href="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/66girlsMain1/66girlsMain1샤프란가디건39.PNG"><a href="/resources/img/66girlsMain1/66girlsMain1샤프란가디건39.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건39.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
 									</div>
 								</div>
 							</div>
@@ -149,64 +152,64 @@
 				<!--상세정보-->
 				<div class="item_detail">
 					<ul class="item_img">
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건1.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건2.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건3.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건4.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건5.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건6.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건7.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건8.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건9.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건10.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건11.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건12.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건13.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건14.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건15.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건16.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건17.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건18.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건20.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건21.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건22.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건23.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건24.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건25.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건26.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건27.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건28.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건29.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건30.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건31.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건32.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건33.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건34.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건35.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건36.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건37.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건38.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건39.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건40.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건41.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건42.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건43.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건44.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건45.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건46.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건47.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건48.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건49.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건50.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건51.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건52.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건53.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건54.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건55.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건56.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건57.PNG"></li>
-						<li><img src="../img/66girlsMain1/66girlsMain1샤프란가디건58.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건1.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건2.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건3.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건4.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건5.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건6.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건7.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건8.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건9.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건10.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건11.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건12.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건13.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건14.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건15.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건16.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건17.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건18.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건20.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건21.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건22.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건23.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건24.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건25.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건26.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건27.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건28.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건29.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건30.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건31.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건32.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건33.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건34.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건35.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건36.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건37.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건38.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건39.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건40.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건41.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건42.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건43.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건44.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건45.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건46.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건47.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건48.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건49.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건50.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건51.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건52.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건53.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건54.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건55.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건56.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건57.PNG"></li>
+						<li><img src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건58.PNG"></li>
 					</ul>
 				</div>
 				<!--//상세정보-->
@@ -233,7 +236,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -254,7 +257,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -281,7 +284,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -302,7 +305,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -329,7 +332,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -350,7 +353,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -514,7 +517,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -535,7 +538,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -562,7 +565,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -583,7 +586,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -610,7 +613,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -631,7 +634,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/66girlsMain1/66girlsMain1샤프란가디건19.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 

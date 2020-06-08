@@ -42,9 +42,9 @@
         <div class="container clearfix">
             <h1>교환/판매 게시판</h1>
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shortcodes</a></li>
-                <li class="active">Tables</li>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">마이페이지</a></li>
+                <li class="active"><a href="#">장바구니</a></li>
             </ol>
         </div>
 

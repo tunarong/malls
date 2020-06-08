@@ -13,13 +13,13 @@
         <div class="container clearfix">
 
             <div class="col_half">
-                <img src="../img/logo_footer.PNG" class="footerlogo" >
-                <p class="copy">Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.</p>
+                <img src="/resources/img/logo_footer.PNG" class="footerlogo" >
+                <p class="copy">&nbsp;Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.</p>
             </div>
 
             <div class="col_half col_last tright">
                 <div class="copyrights-menu copyright-links fright clearfix">
-                    <a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                    <a href="/main/main.do">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Shops</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
                 </div>
                 <div class="fright clearfix">
                     <a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
@@ -33,8 +33,8 @@
                     </a>
 
                     <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
-                        <i class="icon-gplus"></i>
-                        <i class="icon-gplus"></i>
+                        <i class="fa fa-comment"></i>
+                        <i class="fa fa-comment"></i>
                     </a>
 
                     <a href="#" class="social-icon si-small si-borderless nobottommargin si-pinterest">

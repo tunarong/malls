@@ -49,8 +49,8 @@
 							<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true" >
 								<div class="flexslider">
 									<div class="slider-wrap" data-lightbox="gallery">
-										<div class="slide" data-thumb="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG"><a href="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG"><a href="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG"><a href="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG"><a href="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
 									</div>
 								</div>
 							</div>
@@ -149,49 +149,49 @@
 				<!--상세정보-->
 				<div class="item_detail">
 					<ul class="item_img">
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스1.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스2.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스3.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스4.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스5.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스6.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스7.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스8.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스9.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스10.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스11.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스13.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스14.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스15.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스16.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스17.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스18.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스19.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스20.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스21.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스22.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스23.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스24.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스25.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스27.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스28.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스29.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스30.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스31.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스32.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스33.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스34.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스35.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스36.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스37.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스38.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스39.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스40.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스41.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스42.PNG"></li>
-						<li><img src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스model.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스1.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스2.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스3.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스4.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스5.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스6.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스7.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스8.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스9.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스10.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스11.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스13.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스14.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스15.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스16.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스17.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스18.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스19.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스20.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스21.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스22.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스23.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스24.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스25.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스26.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스27.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스28.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스29.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스30.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스31.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스32.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스33.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스34.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스35.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스36.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스37.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스38.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스39.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스40.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스41.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스42.PNG"></li>
+						<li><img src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스model.PNG"></li>
 
 					</ul>
 				</div>
@@ -219,7 +219,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -240,7 +240,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -267,7 +267,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -288,7 +288,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -315,7 +315,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -336,7 +336,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -500,7 +500,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -521,7 +521,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -548,7 +548,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -569,7 +569,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -596,7 +596,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -617,7 +617,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/hotpinkMain1/hotpinkMain1데님멜빵롱원피스12.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 

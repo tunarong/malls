@@ -26,8 +26,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/commonunique.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_cmuq");
+        mv.addObject("action", "/WEB-INF/jsp/main/commonunique.jsp"); // 뷰이름 지정
 
         return mv;
     }
@@ -38,8 +38,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/66girls.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_66");
+        mv.addObject("action", "/WEB-INF/jsp/main/66girls.jsp"); // 뷰이름 지정
 
         return mv;
     }
@@ -50,8 +50,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/ggsing_1.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_gg1");
+        mv.addObject("action", "/WEB-INF/jsp/main/ggsing_1.jsp"); // 뷰이름 지정
 
         return mv;
     }
@@ -62,8 +62,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/ggsing_2.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_gg2");
+        mv.addObject("action", "/WEB-INF/jsp/main/ggsing_2.jsp"); // 뷰이름 지정
 
         return mv;
     }
@@ -74,8 +74,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/hotpink_1.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_hp1");
+        mv.addObject("action", "/WEB-INF/jsp/main/hotpink_1.jsp"); // 뷰이름 지정
 
         return mv;
     }
@@ -86,8 +86,8 @@ public class PayController {
 
         ModelAndView mv = new ModelAndView();
 
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/hotpink_2.jsp"); // 뷰이름 지정
+        mv.setViewName("layout/items/layout_hp2");
+        mv.addObject("action", "/WEB-INF/jsp/main/hotpink_2.jsp"); // 뷰이름 지정
 
         return mv;
     }

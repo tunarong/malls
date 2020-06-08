@@ -49,8 +49,8 @@
 							<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true" >
 								<div class="flexslider">
 									<div class="slider-wrap" data-lightbox="gallery">
-										<div class="slide" data-thumb="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG"><a href="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
-										<div class="slide" data-thumb="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG"><a href="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG"><a href="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" alt="Pink Printed Dress" class="slideimg"></a></div>
+										<div class="slide" data-thumb="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG"><a href="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG" alt="Pink Printed Dress"  class="slideimg"></a></div>
 									</div>
 								</div>
 							</div>
@@ -149,57 +149,57 @@
 				<!--상세정보-->
 				<div class="item_detail">
 					<ul class="item_img">
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스1.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스2.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스3.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스4.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스5.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스6.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스7.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스8.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스9.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스10.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스11.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스12.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스13.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스14.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스15.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스16.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스17.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스18.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스19.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스21.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스22.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스23.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스24.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스26.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스27.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스28.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스29.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스30.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스31.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스32.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스33.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스34.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스35.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스36.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스37.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스38.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스39.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스40.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스41.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스42.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스43.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스44.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스45.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스46.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스47.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스48.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스49.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스50.PNG"></li>
-						<li><img src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스51.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스1.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스2.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스3.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스4.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스5.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스6.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스7.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스8.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스9.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스10.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스11.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스12.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스13.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스14.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스15.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스16.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스17.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스18.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스19.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스21.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스22.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스23.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스24.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스25.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스26.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스27.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스28.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스29.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스30.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스31.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스32.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스33.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스34.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스35.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스36.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스37.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스38.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스39.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스40.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스41.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스42.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스43.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스44.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스45.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스46.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스47.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스48.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스49.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스50.PNG"></li>
+						<li><img src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스51.PNG"></li>
 					</ul>
 				</div>
 				<!--//상세정보-->
@@ -226,7 +226,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -247,7 +247,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -274,7 +274,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -295,7 +295,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -322,7 +322,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -343,7 +343,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="reviewimg"/></span>
 											</div>
 										</div>
 
@@ -507,7 +507,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -528,7 +528,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -555,7 +555,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -576,7 +576,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -603,7 +603,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
@@ -624,7 +624,7 @@
 									<div class="col-md-6">
 										<div class="comment-meta">
 											<div class="comment-author vcard">
-												<img alt='' src="../img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
+												<img alt='' src="/resources/img/ggsingMain2/ggsingMain2반하이모찌슬랙스20.PNG" class="QnAimg"/></span>
 											</div>
 										</div>
 
