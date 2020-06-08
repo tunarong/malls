@@ -1,5 +1,5 @@
 <%@ page pageEncoding="UTF-8" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <head lang="ko">
     <meta charset="utf-8">
@@ -7,45 +7,45 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="tj/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="tj/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tj/fa47/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tj/css/malls.css">
+
     <style>
+        /*나현 추가*/
+        a:link{color: black; text-decoration: none;}
+        a:visited{color: black; text-decoration: none;}
+        a:hover{color: #b391d6; text-decoration: none;}
+        a:active{color: #b391d6; text-decoration: none;}
+
+        #hmenu a:link{color: white; text-decoration: none;}
+        #hmenu a:visited{color: white; text-decoration: none;}
+        #hmenu a:hover{color: white; text-decoration: underline;}
+        #hmenu a:active{color: white; text-decoration: none;}
+        #hmenu li { float: left; list-style-type: none; }
 
         #topnav {height: 75px; padding: 1rem; color: white; background: teal;  font-weight: bold; display: flex; justify-content: space-between;
-        align-items: center; position: fixed; top: 0; width: 100%; left: 0; right: 0; opacity: 0.3;
-        background: #641180; z-index: 2;}
-
-
-        #logo{width : 200px; height: 200px; margin:0px; padding:0; float: left; padding-top: 75px;}
-        #topmenu {width: 900px; height: 120px; float: right; margin: 0; padding: 0; padding-top: 75px;}
-        #search {margin-left: 0px; margin-top:50px; top:100px; left: -100px; }
-        #searchbar {width: 350px; height: 35px; }
-
-        #hmenu { list-style-type: none; float: right; margin-top: 0px; margin-top:20px;}
-        #hmenu li {float: left;}
-
-        #hr1 {width: 1300px; float: right; margin-top:70px; padding: 0; }
-        #nav {margin: 0px;}
-        #nmenu {list-style-type: none; top: 20px; float: left; margin-top: 0px; margin-left: 200px;}
-        #nmenu li {float: left;}
-
-        #carouselExampleIndicators {clear:both; bottom: 20px; top :50px; z-index: -15; width: 100%; height: 600px;}
-        .carousel-item active{height: 600px;}
-
-        #main {clear: both; float: left; margin-top: 100px;}
-        .malls { width: 1600px; height: 500px; margin-left: 20px; margin-top: 20px;}
-        .shoplogo {width: 1425px; height: 100px; float: left; margin-top: 80px; margin-bottom: 30px; margin-left: 30px;}
-        .introimg {width: 320px; height: 450px; }
-        .product {float: left; margin-left: 30px; margin-right: 20px;}
-        .product span {display: table-row;}
+            align-items: center; position: fixed; top: 0; width: 100%; left: 0; right: 0; opacity: 0.7;
+            background: #b391d6; z-index: 2;}
 
         .pagingnum {clear: both; margin-top: 50px; padding-top: 50px;}
         .pagination justify-content-center { margin-top: 50px; padding-top: 50px;}
 
 
+        /*승혁 추가*/
+        .main {/*border: 1px solid red;*/ width: 100%; height: 3500px; }
+        .shop {/*border: 1px solid yellow;*/ width: 91%; height: 3500px;}
+        .products {/*border: 1px solid blue;*/ height: 400px;}
+        .products li { float: left; list-style-type: none; }
+        .products li img { width: 320px; height: 380px; padding: 3px; }
+        .products span { margin-left: 10px; font-size: small; display: list-item }
+        #sal { color: deeppink; }
+
 
         @import url(https://fonts.googleapis.com/css?family=Oswald);
         @import url(https://fonts.googleapis.com/css?family=Quattrocento);
-        .snip1361 {
+        .products1 {
             font-family: 'Quattrocento', Arial, sans-serif;
             position: relative;
             overflow: hidden;
@@ -58,51 +58,51 @@
             line-height: 1.4em;
             font-size: 16px;
         }
-        .snip1361 * {
+        .products1 * {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             -webkit-transition: all 0.35s ease;
             transition: all 0.35s ease;
         }
-        .snip1361 img {
+        .products1 img {
             max-width: 100%;
             vertical-align: top;
         }
-        .snip1361 figcaption {
+        .products1 figcaption {
             position: absolute;
-            top: calc(110%);
+            top: calc(170%);
             width: 100%;
             background-color: #ffffff;
-            padding: 15px 25px 65px;
+            padding: 15px 25px 30px;
         }
-        .snip1361 figcaption:before {
+        .products1 figcaption:before {
             position: absolute;
             content: '';
             z-index: 2;
             bottom: 100%;
             left: 0;
             width: 100%;
-            height: 80px;
+            height: 70px;
             background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
             background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
         }
-        .snip1361 h3,
-        .snip1361 p {
+        .products1 h3,
+        .products1 p {
             margin: 0 0 10px;
         }
-        .snip1361 h3 {
+        .products1 h3 {
             font-weight: 300;
-            font-size: 1.4em;
+            font-size: 1em;
             line-height: 1.2em;
             font-family: 'Oswald', Arial, sans-serif;
             text-transform: uppercase;
         }
-        .snip1361 p {
+        .products1 p {
             font-size: 0.9em;
             letter-spacing: 1px;
             opacity: 0.9;
         }
-        .snip1361 a {
+        .products1 a {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -110,11 +110,12 @@
             right: 0;
             z-index: 2;
         }
-        .snip1361:hover figcaption,
-        .snip1361.hover figcaption {
-            top: 320px;
+        .products1 :hover figcaption,
+        .products1 .hover figcaption {
+            top: 230px;
         }
 
+        #index span { z-index: 10; }
     </style>
 
     <title>main</title>
@@ -123,390 +124,549 @@
 </head>
 <body>
 
+<header>
 
-    <header>
-
-        <div id="topnav">
+    <div id="topnav">
+        <h1 id="styles"><img src="img/logo_square.PNG" style=" height:75px; text-align-all: center;"/> </h1>
+        <div>
             <div class="combi_filters">
                 <div class="styles_filter">
-                    <h3>Styles</h3>
+                    <h3 align="center">Styles</h3>
                     <input type="checkbox" id="styleall" name="styleall" value="*">
                     <span class="box"></span>
                     <label for="styleall">All</label>
 
-                    <input type="checkbox" id="pretty" name="pretty" value="pretty">
+                    <input type="checkbox" id="basic" name="basic" value="basic">
                     <span class="box"></span>
-                    <label for="pretty">pretty</label>
-
-                    <input type="checkbox" id="sexy" name="sexy" value="sexy">
-                    <span class="box"></span>
-                    <label for="sexy">sexy</label>
+                    <label for="basic">basic</label>
 
                     <input type="checkbox" id="lovely" name="lovely" value="lovely">
                     <span class="box"></span>
                     <label for="lovely">lovely</label>
 
-                    <input type="checkbox" id="young" name="young" value="young">
+                    <input type="checkbox" id="unique" name="unique" value="unique">
                     <span class="box"></span>
-                    <label for="young">young</label>
+                    <label for="unique">unique</label>
+
+                    <input type="checkbox" id="elegant" name="elegant" value="elegant">
+                    <span class="box"></span>
+                    <label for="elegant">elegant</label>
+
+                    <input type="checkbox" id="sexy" name="sexy" value="sexy">
+                    <span class="box"></span>
+                    <label for="sexy">sexy</label>
+
+                    <input type="checkbox" id="comfortable" name="comfortable" value="comfortable">
+                    <span class="box"></span>
+                    <label for="comfortable">comfortable</label>
+
+
+
 
                 </div>
             </div>
-        </div>
 
-        <span id="logo"><a href="main.jsp"><img src="img/logo.jpg" style="width: 200px;"></a></span>
-        <div id="topmenu">
-            <ul id = "hmenu">
-                <li>마이페이지 | </li>
-                <li>장바구니 | </li>
-                <li>주문내역 | </li>
-                <li>로그아웃 </li>
-            </ul>
-
-            <div id ="search"><input type="text" id="searchbar" placeholder="검색어를 입력하세요">
-                <button>검색</button></div>
-        </div>
-    </header>
-    <hr id="hr1">
-    <nav id="nav">
-        <ul id = "nmenu">
-            <li>베스트 | </li>
-            <li>신상 | </li>
-            <li>이벤트 |</li>
+        </div><!--//헤더 중앙 필터-->
+        <ul id = "hmenu" style="font-weight: bold;">
+            <li><a href="#"> 마이페이지 | </a></li>
+            <li><a href="#">&nbsp;장바구니 | </a></li>
+            <li><a href="#">&nbsp;주문내역 | </a></li>
+            <li><a href="#">&nbsp;로그아웃 </a></li>
         </ul>
-    </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/slide1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/slide2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/slide3.png" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-    <main id="main">
+    <!--헤더 감싸기-->
+    <div class="row" style="margin-top: 80px;">
+        <!--로고-->
+        <div class="col-md-3">
+            <span><a href="main.html"><img src="img/logo_circle.PNG" style="width: 200px; opacity: 0.7; margin-top: 10px; margin-left: 40px;"></a></span>
+        </div><!--//헤더 좌측-->
 
-        <div id="malls1" class="malls pretty">
-            <img src="img/shoplogo1.png" id="shoplogo1" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <figure class="snip1361">
-                    <img id="introimg1" border="0" class="introimg">
-                    <figcaption>
-                        <h3>양승혁</h3>
-                        <p>Weekends don't count unless you spend them doing something completely pointless.</p>
-                    </figcaption>
-                    <a href="#"></a>
-                </figure>
+        <div class="col-md-6">
 
-                <c:forEach var="m" items="${mllist}">
-                    <span>${m.m_name}</span>
-                    <span>${m.m_id}</span>
-                    <span>${m.m_style}</span>
-                </c:forEach>
-                </body>
+            <div style="height:100px; padding-left: 60px; padding-top: 50px;">
+                <input type="text" id="searchbar" placeholder="&nbsp;Best For You" style="width: 500px; height: 35px; float: left; border: 2px solid #b391d6; margin-top: 2px; margin-right: 5px;">
+                <button type="button" class="btn" style="background-color: #b391d6; color: white; opacity: 0.7; float: left;" ><i class="fa fa-search"></i> 검색</button>
+
             </div>
+
+            <hr style="clear: both;">
+
+            <div style=" height: 100px;  clear: both; ">
+                <ul style="list-style: none; font-weight: bold; padding-top: 20px; font-size: smaller">
+                    <li style="float: left;"><a href="#">홈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;쇼핑몰&마켓 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;베스트 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;특가 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스토어 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이벤트</a></li>
+                </ul>
+            </div>
+
+        </div><!--//헤더 중앙-->
+        <!--쿠폰-->
+        <div class="col-md-3">
+            <span><a href="main.html"><img src="img/coupon.png" style="width: 200px; opacity: 0.7; margin-top: 10px; margin-left: 80px;"></a></span>
+        </div><!--//헤더 우측-->
+
+    </div>
+</header>
+
+<!--슬라이드-->
+<nav id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 410px;">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/MainPic/slide2.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
-
-
-        <div id="malls2" class="malls young">
-            <img src="img/shoplogo1.png" id="shoplogo2" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg5" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg6" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg7" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg8" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
+        <div class="carousel-item">
+            <img src="img/MainPic/slide3.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
-
-        <div id="malls3" class="malls sexy">
-            <img src="img/shoplogo1.png" id="shoplogo3" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg9" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg10" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg11" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg12" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
+        <div class="carousel-item">
+            <img src="img/MainPic/slide4.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
-
-        <div id="malls4" class="malls lovely">
-            <img src="img/shoplogo1.png" id="shoplogo4" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg13" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg14" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg15" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg16" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
+        <div class="carousel-item">
+            <img src="img/MainPic/slide5.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
-
-        <div id="malls5" class="malls">
-            <img src="img/shoplogo1.png" id="shoplogo5" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg17" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg18" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg19" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg20" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
+        <div class="carousel-item">
+            <img src="img/MainPic/slide6.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
-
-        <div id="malls6" class="malls">
-            <img src="img/shoplogo1.png" id="shoplogo6" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg21" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg22" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg23" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg24" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
-
+        <div class="carousel-item">
+            <img src="img/MainPic/slide7.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+            <img src="img/MainPic/slide1.PNG" style="max-width: 100%; /*height: 500px;*/" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</nav>
+<!--//슬라이드-->
 
-        <div id="malls7" class="malls">
-            <img src="img/shoplogo1.png" id="shoplogo7" class="shoplogo">
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg25" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
+<!--브랜드별 제품-->
+<center>
+    <main id="main" class="main">
+        <div class="shop">
+            <img id="logo1" src="img/shoplogo/hotpinklogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
+                <!--hotpink-->
+                <li col-md-3 class="products1">
+                    <figure><img src="img/hotpink/hotpink1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span>마법슬림컷 부츠컷팬츠</span>
+                    <span id="sal">15% sal!</span>
+                    <span>19,800원</span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/hotpink/hotpink1동2.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span>타임머신V넥 반팔티셔츠</span>
+                    <span>할인율</span>
+                    <span>9,800원</span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/hotpink/hotpink1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span>최고좋아 얼음냉장고바지</span>
+                    <span>할인율</span>
+                    <span>12,800원</span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/hotpink/hotpink1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span>사이좋은 데님멜빵롱원피스</span>
+                    <span>할인율</span>
+                    <span>29,800원</span>
+                </li>
             </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--hotpink 끝-->
+            <!--ggsing-->
+            <img id="logo2" src="img/shoplogo/ggsinglogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
 
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ggsing/ggsing1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span>반하이 모찌슬랙스</span>
+                    <span>할인율</span>
+                    <span>18,000원</span>
+                </li>
 
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg26" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
+                <li col-md-3 class="products1" id="index">
+                    <figure><img src="img/ggsing/ggsing1동2.gif"/>
+                        <figcaption>
+                            <h3>[무료배송][3인치커버]</h3>
+                            <p>기장별 사이즈 선택가능!! 짱짱한 허리밴딩으로 편하게 착용하는 팬츠! 늘어짐이 적어 운동할때 좋아요!</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span>세상편한 트레이닝밴딩PT</span>
+                    <span>할인율</span>
+                    <span>9,900원</span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ggsing/ggsing1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span>차캐팬츠ver.예쁜핏 트레이닝 밴딩팬츠</span>
+                    <span>할인율</span>
+                    <span>11,800원</span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ggsing/ggsing1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span>탐나는 하이와이드SL</span>
+                    <span>할인율</span>
+                    <span>14,900원</span>
+                </li>
             </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--ggsing끝-->
+            <!--comunique-->
+            <img id="logo3" src="img/shoplogo/comuniquelogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
 
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg27" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
-            </div>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/comunique/comunique1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
 
-            <div class="product">
-                <body onload="showImage()">
-                <img id="introimg28" border="0" class="introimg">
-                <span>이름</span>
-                <span>할인율</span>
-                <span>가격</span>
-                </body>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/comunique/comunique1동2.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/comunique/comunique1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/comunique/comunique1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
             </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--comunique끝-->
+
+            <!--66girls-->
+            <img id="logo4" src="img/shoplogo/66girlslogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/66girls/66girls1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/66girls/66girls1동2.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/66girls/66girls1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/66girls/66girls1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--66girls끝-->
+
+            <!--ririnco-->
+            <img id="logo5" src="img/shoplogo/ririncologo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ririnco/ririnco1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ririnco/ririnco1동2.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ririnco/ririnco1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/ririnco/ririnco1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--ririnco끝-->
+            <!--dejou-->
+            <img id="logo6" src="img/shoplogo/dejoulogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <div class="products">
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/dejou/dejou1동1.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/dejou/dejou1동2.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+
+                <li col-md-3 class="products1">
+                    <figure><img src="img/dejou/dejou1동3.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+                <li col-md-3 class="products1">
+                    <figure><img src="img/dejou/dejou1동4.gif"/>
+                        <figcaption>
+                            <h3>양승혁</h3>
+                            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
+                        </figcaption>
+                    </figure>
+                    <span></span>
+                    <span>할인율</span>
+                    <span></span>
+                </li>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <!--dejou 끝-->
+
 
         </div>
     </main>
+</center>
 
 
-    <div class="pagingnum">
-        <div class="col-12">
-            <nav>
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a href="#" class="page-link">이전</a></li>
-                    <li class="page-item active">
-                        <a href="#" class="page-link">1</a></li>
-                    <li class="page-item">
-                        <a href="#" class="page-link">2</a></li>
-                    <li class="page-item">
-                        <a href="#" class="page-link">3</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">4</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">5</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">6</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">7</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">8</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">9</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">10</a></li>
-                    <li class="page-item ">
-                        <a href="#" class="page-link">다음</a></li>
-                </ul>
-            </nav>
-        </div>
+
+
+
+
+<!--//브랜드별 제품-->
+
+<!--페이지넘김-->
+<br>
+<br>
+<br>
+<div class="pagingnum">
+    <div class="col-12">
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a href="#" class="page-link">이전</a></li>
+                <li class="page-item active">
+                    <a href="#" class="page-link">1</a></li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a></li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">4</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">5</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">6</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">7</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">8</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">9</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">10</a></li>
+                <li class="page-item ">
+                    <a href="#" class="page-link">다음</a></li>
+            </ul>
+        </nav>
     </div>
+</div>
+<!--//페이지넘김-->
 
+<!-- Footer
+============================================= -->
+
+
+<!-- #footer end -->
 
 
 <!-- Optional JavaScript -->
@@ -514,9 +674,59 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="tj/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    var imgArray=new Array();
+    imgArray[0]="img/hotpink/hotpink1부츠컷팬츠.PNG";
+    imgArray[1]="img/hotpink/hotpink1부츠컷팬츠2.PNG";
+    imgArray[2]="img/hotpink/hotpink1부츠컷팬츠3.PNG";
+
+
+    function showImage(){
+        var imgNum=Math.round(Math.random()*2);
+        var objImg=document.getElementById("introimg1");
+        objImg.src=imgArray[imgNum];
+        setTimeout(showImage,500); }
+
+
+    <script>
+
+    $(".hover").mouseleave(
+        function () {
+            $(this).removeClass("hover");
+        }
+    );
+</script>
+
+<script>
+    var styleFilter = $('.styles_filter input');
+    var targetList =$('.malls');
+
+
+    styleFilter.click(function () {
+        var targetValue = [];
 
 
 
+        styleFilter.filter(':checked').each(function () {
+
+            targetValue.push('.' + $(this).val());
+        });
+
+        var targetClass = targetValue.join(', ');
+
+        targetList.hide();
+        $(targetClass).fadeIn();
+
+    });
+
+
+</script>
+
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript" src="functions.js"></script>
 
 
 </body>
