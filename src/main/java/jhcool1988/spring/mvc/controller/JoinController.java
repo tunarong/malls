@@ -29,4 +29,16 @@ public class JoinController {
 
         return mv;
     }
+
+    //joinok
+    @RequestMapping(value = "joinok")
+    public ModelAndView joinok() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout_detail");
+        mv.addObject("action", "/WEB-INF/jsp/joinok.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
 }
