@@ -13,11 +13,11 @@
 	<a name="top"></a>
 	<section id="page-title">
 		<div class="container clearfix">
-			<h1>핫핑크</h1>
+			<h1>핫핑</h1>
 			<ol class="breadcrumb headernav">
-				<li><a href="#">홈</a></li>   <!--b4u 홈-->
-				<li><a href="#">쇼핑몰</a></li> <!--커먼유니크 상세페이지-->
-				<li class="active"><a href="#">장바구니</a></li>
+				<li><a href="/main/main.do">홈</a></li>   <!--b4u 홈-->
+				<li><a href="/malls/hotpink.do">쇼핑몰</a></li> <!--쇼핑몰 상세페이지-->
+				<li class="active"><a href="/main/cart.do">장바구니</a></li>
 			</ol>
 		</div>
 
@@ -122,7 +122,7 @@
 						<!-- Product Single - Quantity & Cart Button
                                                                 ============================================= -->
 						<form class="" style="text-align: start;">
-							<button type="submit" class="button button-lightpurple">장바구니 담기</button>
+							<button type="button" class="button button-lightpurple" onclick="javascript:sendcart('${상품번호}')">장바구니 담기</button>
 							<button type="submit" class="button button-lightpurple">바로 구매하기</button>
 							<button type="button" class="button button-pink" data-toggle="modal" data-target="#like"><i class="fa fa-heart"></i> 찜하기</button>
 

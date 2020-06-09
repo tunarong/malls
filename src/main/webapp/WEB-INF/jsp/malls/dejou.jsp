@@ -268,7 +268,7 @@
 <br>
 <br>
 <br>
-<div class="pagingnum">
+<div class="pagingnum" align="center">
     <div class="col-12">
         <nav>
             <ul class="pagination justify-content-center">

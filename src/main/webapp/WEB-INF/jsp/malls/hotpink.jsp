@@ -45,6 +45,8 @@
                     <span>할인율</span>
                     <span>12,800₩</span>
                 </li>
+
+                <a href="/main/hotpink_1.do">
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"/>
                         <figcaption>
@@ -56,7 +58,7 @@
                     <span id="sal">15% sal!</span>
                     <span>29,800₩</span>
                 </li>
-
+                </a>
 
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동5.gif"/>
@@ -82,6 +84,7 @@
                     <span>29,800원</span>
                 </li>
 
+                <a href="/main/hotpink_2.do">
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동7.gif"/>
                         <figcaption>
@@ -92,7 +95,7 @@
                     <span>브이2 반팔 티셔츠</span>
                     <span id="sal">15% sal!</span>
                     <span>9800₩</span>
-                </li>
+                </li></a>
 
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동8.gif"/>
@@ -268,7 +271,7 @@
 <br>
 <br>
 <br>
-<div class="pagingnum">
+<div class="pagingnum" align="center">
     <div class="col-12">
         <nav>
             <ul class="pagination justify-content-center">

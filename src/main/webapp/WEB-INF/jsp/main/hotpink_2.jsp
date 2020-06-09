@@ -13,11 +13,11 @@
 	<a name="top"></a>
 	<section id="page-title">
 		<div class="container clearfix">
-			<h1>핫핑크</h1>
+			<h1>핫핑</h1>
 			<ol class="breadcrumb headernav">
-				<li><a href="#">홈</a></li>   <!--b4u 홈-->
-				<li><a href="#">쇼핑몰</a></li> <!--커먼유니크 상세페이지-->
-				<li class="active"><a href="#">장바구니</a></li>
+				<li><a href="/main/main.do">홈</a></li>   <!--b4u 홈-->
+				<li><a href="/malls/hotpink.do">쇼핑몰</a></li> <!--쇼핑몰 상세페이지-->
+				<li class="active"><a href="/main/cart.do">장바구니</a></li>
 			</ol>
 		</div>
 
@@ -151,12 +151,6 @@
 					<ul class="item_img">
 						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠1.PNG"></li>
 						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠2.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠3.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠4.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠5.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠6.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠7.PNG"></li>
-						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠8.PNG"></li>
 						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠9.PNG"></li>
 						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠10.PNG"></li>
 						<li><img src="/resources/img/hotpinkMain2/hotpinkMain2브이2반팔티셔츠11.PNG"></li>

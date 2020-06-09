@@ -111,6 +111,7 @@
                             <h3>[lovely][elegant]</h3>
                             <p>편안한 티셔츠 소재이지만 여성스러운 디테일들로 꾸민 느낌을 낼 수 있어 소장 가치 있는 아이템</p>
                         </figcaption>
+                        <a href="/main/commonunique.do"></a>
                     </figure>
                     <span>엘로미셔링 퍼프티</span>
                     <span id="sal">15% sal!!</span>
@@ -269,7 +270,7 @@
 <br>
 <br>
 <br>
-<div class="pagingnum">
+<div class="pagingnum" align="center">
     <div class="col-12">
         <nav>
             <ul class="pagination justify-content-center">

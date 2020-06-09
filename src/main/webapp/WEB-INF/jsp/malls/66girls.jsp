@@ -17,7 +17,7 @@
                         <a href="#"></a>
                     </figure>
                     <span>데일리 U넥반팔T</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>6,900₩</span>
                 </li>
 
@@ -30,7 +30,7 @@
                         <a href="#"></a>
                     </figure>
                     <span>썸머밴딩바지</span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>9,900₩</span>
                 </li>
 
@@ -42,18 +42,19 @@
                         </figcaption>
                     </figure>
                     <span>체리콕 반팔CD</span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>10,800₩</span>
                 </li>
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/66girlsdong/66girls1동4.gif"/>
                         <figcaption>
                             <h3>[5-color][comfortable]</h3>
-                            <p>얇고 가벼운 골지소재로 입은듯 안입은듯 착용감 GOOD!</p>
+                            <p>얇고 가벼운 골지소재로 입은듯 안입은듯 착용감 GOOD! 산뜻한 분위기 연출에 좋아요~</p>
                         </figcaption>
+                        <a href="/main/66girls.do"></a>
                     </figure>
                     <span>샤프란 가디건T</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>14,000₩</span>
                 </li>
 
@@ -90,7 +91,7 @@
                         </figcaption>
                     </figure>
                     <span>브이2 반팔 티셔츠</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>9800₩</span>
                 </li>
 
@@ -102,7 +103,7 @@
                         </figcaption>
                     </figure>
                     <span>베이직 끈나시</span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>3,800₩</span>
                 </li>
 
@@ -138,7 +139,7 @@
                         <a href="#"></a>
                     </figure>
                     <span>데일리 U넥반팔T</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>6,900₩</span>
                 </li>
 
@@ -151,7 +152,7 @@
                         <a href="#"></a>
                     </figure>
                     <span>썸머밴딩바지</span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>9,900₩</span>
                 </li>
 
@@ -163,7 +164,7 @@
                         </figcaption>
                     </figure>
                     <span></span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>₩</span>
                 </li>
                 <li col-md-3 class="products1">
@@ -174,7 +175,7 @@
                         </figcaption>
                     </figure>
                     <span>사이좋은 데님멜빵롱원피스</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>29,800₩</span>
                 </li>
 
@@ -211,7 +212,7 @@
                         </figcaption>
                     </figure>
                     <span>브이2 반팔 티셔츠</span>
-                    <span id="sal">15% sal!</span>
+                    <span class="sal">15% sal!</span>
                     <span>9800₩</span>
                 </li>
 
@@ -223,7 +224,7 @@
                         </figcaption>
                     </figure>
                     <span>베이직 끈나시</span>
-                    <span id="sal">15% sal!!</span>
+                    <span class="sal">15% sal!!</span>
                     <span>3,800₩</span>
                 </li>
 
@@ -252,7 +253,7 @@
                 </li>
 
 
-
+            </div>
             </div>
     </main>
 </center>
@@ -268,7 +269,7 @@
 <br>
 <br>
 <br>
-<div class="pagingnum">
+<div class="pagingnum" align="center">
     <div class="col-12">
         <nav>
             <ul class="pagination justify-content-center">

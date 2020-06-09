@@ -36,9 +36,9 @@
 
                 <%--버튼들--%>
                 <div class="col_full nobottommargin" style="margin-top: 40px;">
-                  <a href="/join.do"><button class="button nomargin">회원가입</button></a>
+                  <a href="/join.do"><button type="button" class="button nomargin">회원가입</button></a>
 
-                  <a href="/main/main.do"><button class="button nomargin" style="float:right;">로그인</button></a>
+                  <a href="/main/main.do"><button type="button" class="button nomargin" style="float:right;">로그인</button></a>
                 </div>
 
               </form>

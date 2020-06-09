@@ -92,16 +92,5 @@ public class PayController {
         return mv;
     }
 
-    // 장바구니
-    @RequestMapping(value = "main/cart")
-    public ModelAndView cart() {
-
-        ModelAndView mv = new ModelAndView();
-
-        mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "../main/cart.jsp"); // 뷰이름 지정
-
-        return mv;
-    }
 
 }

@@ -50,7 +50,7 @@
 <center>
     <main id="main" class="main">
         <div class="shop align-content-center">
-            <img id="logo1" src="/resources/img/dong/shoplogo/hotpinklogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <a href="/malls/hotpink.do"><img id="logo1" src="/resources/img/dong/shoplogo/hotpinklogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/></a>
             <div class="products">
                 <!--hotpink-->
                 <li col-md-3 class="products1">
@@ -90,6 +90,7 @@
                     <span id="sal">7% sal!</span>
                     <span>12,800원</span>
                 </li>
+                <a href="/main/hotpink_1">
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"/>
                         <figcaption>
@@ -101,6 +102,7 @@
                     <span id="sal">15% sal!</span>
                     <span>29,800원</span>
                 </li>
+                </a>
             </div>
             <br>
             <br>
@@ -108,7 +110,7 @@
             <hr>
             <!--hotpink 끝-->
             <!--ggsing-->
-            <img id="logo2" src="/resources/img/dong/shoplogo/ggsinglogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <a href="/malls/ggsing.do"><img id="logo2" src="/resources/img/dong/shoplogo/ggsinglogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/></a>
             <div class="products">
 
                 <li col-md-3 class="products1">
@@ -166,7 +168,7 @@
             <hr>
             <!--ggsing끝-->
             <!--comunique-->
-            <img id="logo3" src="/resources/img/dong/shoplogo/comuniquelogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <a href="/malls/comunique.do"><img id="logo3" src="/resources/img/dong/shoplogo/comuniquelogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/></a>
             <div class="products">
 
                 <li col-md-3 class="products1">
@@ -225,7 +227,7 @@
             <!--comunique끝-->
 
             <!--66girls-->
-            <img id="logo4" src="/resources/img/dong/shoplogo/66girlslogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/>
+            <a href="/malls/66girls.do"><img id="logo4" src="/resources/img/dong/shoplogo/66girlslogo.PNG" width="250px;" height="100px;" style="margin-left: auto; margin-right: auto; display: block;"/></a>
             <div class="products">
 
                 <li col-md-3 class="products1">

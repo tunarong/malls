@@ -8,13 +8,15 @@
 
             <div class="products">
                 <!--hotpink-->
+
+
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/ggsingdong/ggsing1동1.gif"/>
                         <figcaption>
                             <h3>[역대급!10만장돌파]</h3>
                             <p>145cm! 170cm까지 키별 옵션 선택가능! 스판5%와 겉에선 티나지않은 속밴드로 편안함까지</p>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="/main/ggsing_2"></a>
                     </figure>
                     <span>반하이 모찌슬랙스</span>
                     <span id="sal">15% sal!</span>
@@ -94,6 +96,7 @@
                     <span>9800₩</span>
                 </li>
 
+                <a href="/main/ggsing_1">
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/ggsingdong/ggsing1동8.gif"/>
                         <figcaption>
@@ -105,6 +108,7 @@
                     <span id="sal">15% sal!!</span>
                     <span>3,800₩</span>
                 </li>
+                </a>
 
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/ggsingdong/ggsing1동9.gif"/>
@@ -268,7 +272,7 @@
 <br>
 <br>
 <br>
-<div class="pagingnum">
+<div class="pagingnum" align="center">
     <div class="col-12">
         <nav>
             <ul class="pagination justify-content-center">

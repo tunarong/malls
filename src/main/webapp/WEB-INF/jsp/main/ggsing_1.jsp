@@ -15,9 +15,9 @@
 		<div class="container clearfix">
 			<h1>고고씽</h1>
 			<ol class="breadcrumb headernav">
-				<li><a href="#">홈</a></li>   <!--b4u 홈-->
-				<li><a href="#">쇼핑몰</a></li> <!--커먼유니크 상세페이지-->
-				<li class="active"><a href="#">장바구니</a></li>
+				<li><a href="/main/main.do">홈</a></li>   <!--b4u 홈-->
+				<li><a href="/malls/ggsing.do">쇼핑몰</a></li> <!--쇼핑몰 상세페이지-->
+				<li class="active"><a href="/main/cart.do">장바구니</a></li>
 			</ol>
 		</div>
 
