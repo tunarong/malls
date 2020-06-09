@@ -36,4 +36,74 @@ public class MallsController {
         return mv;
     }
 
+    // 66girls Main
+    @RequestMapping(value = "malls/66girls")
+    public ModelAndView girls() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/66girls.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // dejou Main
+    @RequestMapping(value = "malls/dejou")
+    public ModelAndView dejou() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/dejou.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // hotpink Main
+    @RequestMapping(value = "malls/hotpink")
+    public ModelAndView hotpink() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/hotpink.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // ririnco Main
+    @RequestMapping(value = "malls/ririnco")
+    public ModelAndView ririnco() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/ririnco.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+
+    // ririnco Main
+    @RequestMapping(value = "malls/ggsing")
+    public ModelAndView ggsing() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/ggsing.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
+    // comunique Main
+    @RequestMapping(value = "malls/comunique")
+    public ModelAndView comunique() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("layout/layout");
+        mv.addObject("action", "/WEB-INF/jsp/malls/comunique.jsp"); // 뷰이름 지정
+
+        return mv;
+    }
 }
