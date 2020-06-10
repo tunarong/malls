@@ -42,30 +42,12 @@
 <jsp:include page="footer.jsp" />
 
 
-
-
-<!--모달 대화상자-->
-<div class="modal fade" role="dialog" id="mymodal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">모달 테스트</h5>
-            </div>
-            <div class="modal-body">
-                <p>모달 대화상자입니다.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger">다른작업</button>
-                <button type="button" class="btn btn-primary" data-dismidd="modal">닫기</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="/resources/js/js/bootstrap.min.js"></script>
+<script src="/resources/js/gallery.js"></script>
+<script src="/resources/js/page.js"></script>
+
 <script>
     var styleFilter = $('.styles_filter input');
     var targetList =$('.malls');

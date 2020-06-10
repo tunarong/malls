@@ -1,23 +1,17 @@
 <%@ page pageEncoding="UTF-8" %>
-<head>
-  <title>회원가입</title>
-</head>
-
-<body class="stretched">
-
 
 <!-- Page Title
 ============================================= -->
 <section id="page-title">
 
-  <div class="container clearfix">
-    <h1>회원가입</h1>
-    <ol class="breadcrumb">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Pages</a></li>
-      <li class="active">Login</li>
-    </ol>
-  </div>
+    <div class="container clearfix">
+        <h1>회원가입</h1>
+        <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li class="active">Login</li>
+        </ol>
+    </div>
 
 </section><!-- #page-title end -->
 
@@ -25,32 +19,32 @@
 ============================================= -->
 <section id="content">
 
-  <div class="content-wrap">
+    <div class="content-wrap">
 
-    <div class="container clearfix">
+        <div class="container clearfix">
 
-      <div class="col_one_third nobottommargin">
+            <div class="col_one_third nobottommargin">
 
-        <div class="well well-lg nobottommargin" style="height:580px;">
-          <form id="login-form" name="login-form" class="nobottommargin" action="#" method="post">
+                <div class="well well-lg nobottommargin" style="height:580px;">
+                    <form id="login-form" name="login-form" class="nobottommargin" method="post">
 
-            <h1 style="text-align: center; font-weight: bold">약관동의</h1>
+                        <h1 style="text-align: center; font-weight: bold">약관동의</h1>
 
-            <div class="col_full">
-              <tr>
-                <td>
-                  <div>
-                    <font color="#f67001" size=4>01</font> <font size=3>이용약관</font>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align=center>
+                        <div class="col_full">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <font color="#f67001" size=4>01</font> <font size=3>이용약관</font>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=center>
 
-                  <!--이용약관 테이블 시작-->
-                  <table width=295>
-                    <tr>
-                      <td align=center>
+                                    <!--이용약관 테이블 시작-->
+                                    <table width=295>
+                                        <tr>
+                                            <td align=center>
                <textarea name="tos" rows=12 cols=55>
 제1조(목적)
  이 약관은 oooo 회사(전자상거래 사업자)가 운영하는 oooo 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련
@@ -275,22 +269,22 @@
 
  ②“몰”과 이용자간에 제기된 전자상거래 소송에는 한국법을 적용합니다.
                 </textarea>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="checkbox"> 이용약관에 동의합니다.<br><br><br><br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div>
-                          <font color="#f67001" size=4>02</font> <font size=3>개인정보 수집 및 이용에 대한 안내</font>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align=center>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox"> 이용약관에 동의합니다.<br><br><br><br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <font color="#f67001" size=4>02</font> <font size=3>개인정보 수집 및 이용에 대한 안내</font>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=center>
                <textarea name="tos" rows=12 cols=55>
 수집하는 개인정보의 항목
 회사는 회원가입, 상담, 서비스 신청 및 제공 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
@@ -391,152 +385,146 @@ NICE신용평가정보㈜(이하 “대행사”)가 “대행사”에서 제�
 '정보통신망 이용촉진 및 정보보호 등에 관한 법률'의 거래기록 보존 의무에 따른 보존: 1년
 
                 </textarea>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="checkbox"> 개인정보 수집 및 이용에 대한 안내에 동의합니다.
-                      </td>
-                    </tr>
-                  </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox"> 개인정보 수집 및 이용에 대한 안내에 동의합니다.
+                                            </td>
+                                        </tr>
+                                    </table>
 
-                </td>
-              </tr>
-              </table>
+                                </td>
+                            </tr>
+                            </table>
+                        </div>
+
+                    </form>
+                </div>
+
             </div>
 
-          </form>
-        </div>
+            <div class="col_two_third col_last nobottommargin">
 
-      </div>
+                <form id="register-form" name="register-form" class="nobottommargin" method="post">
 
-      <div class="col_two_third col_last nobottommargin">
+                    <div class="col_half">
+                        <label for="id">아이디:</label>
+                        <div style="margin-top: -25px;">
+                            <button type="button" style="float: right; margin-left: 20px;" class="btn btn-default" onclick=""><i class="fa fa-search"></i>중복확인</button>
+                            <input type="text" style="width:200px; float:right" id="id" name="id" value="" class="form-control" />
+                        </div>
+                    </div>
 
-        <div id="register-form" name="register-form" class="nobottommargin" action="#" method="post">
 
-          <div class="col_half">
-            <label for="register-form-name">아이디:</label>
-            <div style="margin-top: -25px;">
-              <button type="button" style="float: right; margin-left: 20px;" class="btn btn-default" onclick=""><i class="fa fa-search"></i>중복확인</button>
-              <input type="text" style="width:200px; float:right" id="register-form-name" name="register-form-name" value="" class="form-control" />
+                    <div class="col_half">
+                        <label for="password">비밀번호:</label>
+                        <input type="password" id="password" name="password" value="" class="form-control" />
+                    </div>
+
+                    <div class="col_half col_last">
+                        <label for="repassword">비밀번호 확인:</label>
+                        <input type="password" id="repassword" name="repassword" value="" class="form-control" />
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="col_half">
+                        <label for="username">이름:</label>
+                        <input type="text" id="username" name="username" value="" class="form-control" />
+                    </div>
+
+                    <div class="col_half col_last">
+                        <label for="phone">전화번호:</label>
+                        <input type="text" id="phone" name="phone" value="" class="form-control" />
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="col_half col_last" style="float:left; width:100%">
+                        <label for="half_year" style= "float:left; margin-top:10px;">생년월일:&nbsp;&nbsp;
+                        </label>
+                        <select id="half_year" name="half_year" class="sm-form-control" style="margin-right:10px; width:100px; height:38px; float:left;" >
+                            <option>년도<option>2020<option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option><option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option><option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option><option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option><option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option><option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option><option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option><option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option><option>1995</option>
+                            <option>1994</option>
+
+                        </select>
+
+                        <select name="half_month" id="half_month" class="sm-form-control"style="margin-right:10px; width:100px; height:38px; float:left;">
+                            <option >월</option><option >01</option>
+                            <option >02</option><option >03</option>
+                            <option >04</option><option >05</option>
+                            <option >06</option><option>07</option>
+                            <option>08</option><option >09</option>
+                            <option >10</option><option >11</option>
+                            <option >12</option>
+                        </select>
+
+                        <select name="half_day" id="half_day" class="sm-form-control"style="margin-right:10px; width:100px; height:38px; float:left;">
+                            <option >01</option><option >02</option>
+                            <option >03</option><option >04</option>
+                            <option >05</option><option >06</option>
+                            <option>07</option><option>08</option>
+                            <option >09</option><option >10</option>
+                            <option >11</option><option >12</option>
+                            <option >13</option><option>14</option>
+                            <option >15</option><option >16</option>
+                            <option>17</option><option >18</option>
+                            <option >19</option><option >20</option>
+                            <option >21</option><option >22</option>
+                            <option >23</option><option >24</option>
+                            <option >25</option><option >26</option>
+                            <option >27</option><option >28</option>
+                            <option >29</option><option>30</option>
+                            <option >31</option>
+                        </select>
+                    </div>
+
+
+                    <div class="clear"></div>
+
+                    <div class="form-group">
+                        <label for="id" style= "float:left; margin-top:0px;">주소:&nbsp;&nbsp;</label>
+                        <input class="form-control" style="width:360px; display:auto; float:left" placeholder="우편번호" name="addr1" id="addr1" type="text" readonly="readonly" >
+                        <button type="button" style="float:left; margin-left:10px;" class="btn btn-default" onclick="execPostCode();"><i class="fa fa-search"></i> 우편번호 찾기</button>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" style="width:600px; margin-top: 50px;" placeholder="도로명 주소" name="addr2" id="addr2" type="text" readonly="readonly" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" style="width:600px;" placeholder="상세주소" name="addr3" id="addr3" type="text"  />
+                    </div>
+
+
+                    <div class="clear"></div>
+
+                    <div class="col_full nobottommargin" style=" margin-top: 50px; margin-left: 250px;">
+                        <button class="nomargin button" id="joinokbtn" type="button"
+                                name="register-form-submit">가입하기</button>
+                    </div>
+
+
+                </form>
+
             </div>
-          </div>
-
-
-          <div class="col_half">
-            <label for="register-form-password">비밀번호:</label>
-            <input type="password" id="register-form-password" name="register-form-password" value="" class="form-control" />
-          </div>
-
-          <div class="col_half col_last">
-            <label for="register-form-repassword">비밀번호 확인:</label>
-            <input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control" />
-          </div>
-
-          <div class="clear"></div>
-
-          <div class="col_half">
-            <label for="register-form-username">이름:</label>
-            <input type="text" id="register-form-username" name="register-form-username" value="" class="form-control" />
-          </div>
-
-          <div class="col_half col_last">
-            <label for="register-form-phone">전화번호:</label>
-            <input type="text" id="register-form-phone" name="register-form-phone" value="" class="form-control" />
-          </div>
-
-          <div class="clear"></div>
-
-          <div class="col_half col_last" style="float:left; width:100%">
-            <label for="col_half" style= "float:left; margin-top:10px;">생년월일:&nbsp;&nbsp;
-            </label>
-            <select id="col_half" name="col_half" class="sm-form-control" style="margin-right:10px; width:100px; height:38px; float:left;" >
-              <option>년도<option>2020<option>2019</option>
-              <option>2018</option>
-              <option>2017</option><option>2016</option>
-              <option>2015</option>
-              <option>2014</option><option>2013</option>
-              <option>2012</option>
-              <option>2011</option><option>2010</option>
-              <option>2009</option>
-              <option>2008</option><option>2007</option>
-              <option>2006</option>
-              <option>2005</option><option>2004</option>
-              <option>2003</option>
-              <option>2002</option><option>2001</option>
-              <option>2000</option>
-              <option>1999</option><option>1998</option>
-              <option>1997</option>
-              <option>1996</option><option>1995</option>
-              <option>1994</option>
-
-            </select>
-
-            <select name="col_half" class="sm-form-control"style="margin-right:10px; width:100px; height:38px; float:left;">
-              <option >월</option><option >01</option>
-              <option >02</option><option >03</option>
-              <option >04</option><option >05</option>
-              <option >06</option><option>07</option>
-              <option>08</option><option >09</option>
-              <option >10</option><option >11</option>
-              <option >12</option>
-            </select>
-
-            <select name="col_half" class="sm-form-control"style="margin-right:10px; width:100px; height:38px; float:left;">
-              <option >01</option><option >02</option>
-              <option >03</option><option >04</option>
-              <option >05</option><option >06</option>
-              <option>07</option><option>08</option>
-              <option >09</option><option >10</option>
-              <option >11</option><option >12</option>
-              <option >13</option><option>14</option>
-              <option >15</option><option >16</option>
-              <option>17</option><option >18</option>
-              <option >19</option><option >20</option>
-              <option >21</option><option >22</option>
-              <option >23</option><option >24</option>
-              <option >25</option><option >26</option>
-              <option >27</option><option >28</option>
-              <option >29</option><option>30</option>
-              <option ">31</option>
-            </select>
-          </div>
-
-
-          <div class="clear"></div>
-
-          <div class="form-group">
-            <label for="register-form-name" style= "float:left; margin-top:0px;">주소:&nbsp;&nbsp;</label>
-            <input class="form-control" style="width:360px; display:auto; float:left" placeholder="우편번호" name="addr1" id="addr1" type="text" readonly="readonly" >
-            <button type="button" style="float:left; margin-left:10px;" class="btn btn-default" onclick="execPostCode();"><i class="fa fa-search"></i> 우편번호 찾기</button>
-          </div>
-          <div class="form-group">
-            <input class="form-control" style="width:600px; margin-top: 50px;" placeholder="도로명 주소" name="addr2" id="addr2" type="text" readonly="readonly" />
-          </div>
-          <div class="form-group">
-            <input class="form-control" style="width:600px;" placeholder="상세주소" name="addr3" id="addr3" type="text"  />
-          </div>
-
-
-          <div class="clear"></div>
-
-          <div class="col_full nobottommargin" style=" margin-top: 50px; margin-left: 250px;">
-            <a href="joinok.do"><button class="button nomargin" id="register-form-submit" name="register-form-submit" value="register">가입하기</button></a>
-          </div>
-
-
-
-
-
-
-          </form>
 
         </div>
-
-      </div>
-
     </div>
-  </div>
 
 </section><!-- #content end -->
-</body>

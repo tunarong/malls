@@ -14,11 +14,11 @@
                             <h3>양승혁</h3>
                             <p>Weekends don't count unless you spend them doing something completely pointless.</p>
                         </figcaption>
-                        <a href="#"></a>
                     </figure>
                     <span>마법슬림컷 부츠컷팬츠</span>
                     <span id="sal">15% sal!</span>
                     <span>19,800₩</span>
+
                 </li>
 
                 <li col-md-3 class="products1">
@@ -45,7 +45,6 @@
                     <span>할인율</span>
                     <span>12,800₩</span>
                 </li>
-
                 <a href="/main/hotpink_1.do">
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"/>
@@ -57,6 +56,7 @@
                     <span>사이좋은 데님멜빵롱원피스</span>
                     <span id="sal">15% sal!</span>
                     <span>29,800₩</span>
+                    <input type="hidden" id="h00001" value="h00001">
                 </li>
                 </a>
 
@@ -95,6 +95,7 @@
                     <span>브이2 반팔 티셔츠</span>
                     <span id="sal">15% sal!</span>
                     <span>9800₩</span>
+                    <input type="hidden" id="h00002" value="h00002">
                 </li></a>
 
                 <li col-md-3 class="products1">

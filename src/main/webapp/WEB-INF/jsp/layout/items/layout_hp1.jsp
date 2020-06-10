@@ -38,17 +38,16 @@
 <!-- Document Wrapper
 ============================================= -->
 <div id="wrapper" class="clearfix">
-    <div class="<%--container--%>">
+
 
         <jsp:include page="" />
 
         <!-- 메인영역 시작 -->
-        <%--<jsp:include page="${param.action}" />--%>
         <jsp:include page="${action}" />
         <!-- 메인영역 끝 -->
 
         <jsp:include page="../footer.jsp" />
-    </div>
+
 </div>
 
 
@@ -72,7 +71,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="/resources/js/js/bootstrap.min.js"></script>
-
+<script src="/resources/js/gallery.js"></script>
 
 </body>
 

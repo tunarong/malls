@@ -2,8 +2,11 @@ package jhcool1988.spring.mvc.controller;
 
 import jhcool1988.spring.mvc.service.JoinService;
 import jhcool1988.spring.mvc.service.MallsService;
+import jhcool1988.spring.mvc.service.MemberService;
+import jhcool1988.spring.mvc.vo.MemberVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -12,10 +15,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class JoinController {
 
     private JoinService jsrv;
+    private MemberService mesrv;
 
     @Autowired
-    public JoinController(JoinService jsrv) {
+    public JoinController(JoinService jsrv, MemberService mesrv) {
         this.jsrv = jsrv;
+        this.mesrv = mesrv;
     }
 
     //join
@@ -30,6 +35,15 @@ public class JoinController {
         return mv;
     }
 
+    //join
+    @PostMapping(value = "join")
+    public String sendjoin(MemberVO me) {
+
+        mesrv.newMember(me);
+
+        return "redirect:/joinok";
+    }
+
     //joinok
     @RequestMapping(value = "joinok")
     public ModelAndView joinok() {
@@ -37,7 +51,7 @@ public class JoinController {
         ModelAndView mv = new ModelAndView();
 
         mv.setViewName("layout/layout_detail");
-        mv.addObject("action", "/WEB-INF/jsp/joinok.jsp"); // 뷰이름 지정
+        mv.addObject("action", "../joinok.jsp"); // 뷰이름 지정
 
         return mv;
     }

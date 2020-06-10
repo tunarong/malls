@@ -1,10 +1,11 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
 <!DOCTYPE html>
-<html dir="ltr" lang="ko">
+<html lang="ko">
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="SemiColonWeb" />
 
     <base href="">
@@ -18,10 +19,9 @@
     <link rel="stylesheet" href="/resources/css/canvas/animate.css" type="text/css" />
     <link rel="stylesheet" href="/resources/css/canvas/magnific-popup.css" type="text/css" />
 
-    <link rel="stylesheet" href=/resources/css/canvas/bs-select.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/css/canvas/bs-select.css" type="text/css" />
 
     <link rel="stylesheet" href="/resources/css/canvas/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="/resources/css/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/fa47/css/font-awesome.min.css">
@@ -56,7 +56,7 @@
 <!-- External JavaScripts
 ============================================= -->
 <script type="text/javascript" src="/resources/js/canvas/jquery.js"></script>
-<script type="text/javascript" src="/resources/js/canvas/plugins.js"></script>
+<%--<script type="text/javascript" src="/resources/js/canvas/plugins.js"></script>--%>
 
 <!-- Footer Scripts
 ============================================= -->
@@ -86,12 +86,15 @@
 
 <!-- External JavaScripts
 ============================================= -->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="/resources/js/canvas/jquery.js"></script>
+<script type="text/javascript" src="/resources/js/canvas/plugins.js"></script>
 
 <!-- Footer Scripts
 ============================================= -->
-<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="/resources/js/canvas/functions.js"></script>
+
+
+
 
 
 <script>
@@ -136,19 +139,19 @@
                  document.getElementById('signUpUserCompanyAddressDetail').value = data.jibunAddress; */
             }
         }).open();
+
+        document.getElementById('addr1').value = data.zonecode; //5자리 새우편번호 사용
+        document.getElementById('addr2').value = fullAddr;
     }
-    document.getElementById('addr1').value = data.zonecode; //5자리 새우편번호 사용
-    document.getElementById('addr2').value = fullAddr;
+
 </script>
 
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
-<script src="/resources/js/addressapi.js"></script>
+<%--<script src="/resources/js/addressapi.js"></script>--%>
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
-
-<!-- Footer Scripts
-============================================= -->
-<script type="text/javascript" src="js/functions.js"></script>
+<script src="/resources/js/join.js"></script>
+<script src="/resources/js/gallery.js"></script>
+<script src="/resources/js/login.js"></script>
+<script src="/resources/js/page.js"></script>
 
 </html>

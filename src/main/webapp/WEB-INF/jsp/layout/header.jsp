@@ -50,7 +50,7 @@
     <div class="row" style="margin-top: 80px;">
         <!--로고-->
         <div class="col-md-3">
-            <span><a href="main.html"><img src="/resources/img/logo_circle.PNG" style="width: 200px; opacity: 0.7; margin-top: 10px; margin-left: 40px;"></a></span>
+            <span><a href="/main/main.do"><img src="/resources/img/logo_circle.PNG" style="width: 200px; opacity: 0.7; margin-top: 10px; margin-left: 40px;"></a></span>
         </div><!--//헤더 좌측-->
 
         <div class="col-md-6">

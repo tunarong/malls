@@ -64,8 +64,8 @@
 						<!-- Product Single - Price
                             ============================================= -->
 						<div style="padding-left: 20px;">
-							<div class="item_name">데님멜빵 롱원피스</div><!-- Product Single - Price End -->
-							<div class="product-price"><del>29000원</del> <ins class="sale_price">19000원</ins></div><!-- Product Single - Price End -->
+							<div class="item_name">사이좋은 데님멜빵원피스<%--${i.p_name}--%></div><!-- Product Single - Price End -->
+							<div class="product-price"><del>52000<%--${i.p_price}--%></del> <ins class="sale_price">39000원</ins></div><!-- Product Single - Price End -->
 
 
 							<!-- Product Single - Rating
@@ -96,7 +96,7 @@
 								<div class="option_select">
 									<ul class="select_ul">
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;19000원</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;m000001</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;h00002<%--${i.p_code}--%></li>
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;<select class="select_box" name="color">
 											<option value="ivory">색상 선택</option>
 											<option value="ivory">베이지</option>
@@ -122,7 +122,7 @@
 						<!-- Product Single - Quantity & Cart Button
                                                                 ============================================= -->
 						<form class="" style="text-align: start;">
-							<button type="button" class="button button-lightpurple" onclick="javascript:sendcart('${상품번호}')">장바구니 담기</button>
+							<button type="button" class="button button-lightpurple" <%--onclick="javascript:sendcart('${상품번호}')"--%>>장바구니 담기</button>
 							<button type="submit" class="button button-lightpurple">바로 구매하기</button>
 							<button type="button" class="button button-pink" data-toggle="modal" data-target="#like"><i class="fa fa-heart"></i> 찜하기</button>
 
