@@ -64,8 +64,8 @@
 						<!-- Product Single - Price
                             ============================================= -->
 						<div style="padding-left: 20px;">
-							<div class="item_name">브이2 반팔티셔츠</div><!-- Product Single - Price End -->
-							<div class="product-price"><del>12000</del> <ins class="sale_price">9000원</ins></div><!-- Product Single - Price End -->
+							<div class="item_name"><%--브이2 반팔티셔츠--%>${i.p_name}</div><!-- Product Single - Price End -->
+							<div class="product-price"><del><%--12000--%>${i.p_price}</del> <ins class="sale_price">9000원</ins></div><!-- Product Single - Price End -->
 
 
 							<!-- Product Single - Rating
@@ -96,7 +96,7 @@
 								<div class="option_select">
 									<ul class="select_ul">
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;19000원</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;h00001</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;<%--h00001--%>${i.p_code}</li>
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;<select class="select_box" name="color">
 											<option value="ivory">색상 선택</option>
 											<option value="ivory">베이지</option>

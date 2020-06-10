@@ -63,6 +63,10 @@ public class GalleryService {
     }
 
     // 아이템상세 본문 출력
+    public ArrayList<ItemVO> showItem() {
+        return (ArrayList<ItemVO>) gdao.selectItem();
+    }
+
     public ItemVO showOneItem(String p_code) {
         return gdao.selectOneItem(p_code);
     }

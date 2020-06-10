@@ -38,11 +38,3 @@ $('#updgal').on('click', function () {
         '/gallery/update.do?gno=';
 }); // 수정하기
 
-
-$('#hpk1').on('click',function () {
-    location.href = '/main/hotpink_1.do?p_code=' + $('#h00001').val();
-});
-
-$('#hpk2').on('click',function () {
-    location.href = '/main/hotpink_2.do?p_code=' + $('#h00002').val();
-});

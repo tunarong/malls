@@ -70,7 +70,7 @@
                     <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;베스트 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
                     <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;특가 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
                     <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
-                    <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;게시판 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                    <li style="float: left;"><a href="/board/list.do">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;게시판 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
                     <li style="float: left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이벤트</a></li>
                 </ul>
             </div>

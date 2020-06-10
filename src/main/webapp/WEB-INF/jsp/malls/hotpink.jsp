@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page pageEncoding="UTF-8" %>
 
 <!--브랜드별 제품-->
@@ -45,9 +46,11 @@
                     <span>할인율</span>
                     <span>12,800₩</span>
                 </li>
-                <a href="/main/hotpink_1.do">
+
+                <%--<c:forEach var="i" items="${ilist}">
                 <li col-md-3 class="products1">
-                    <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"/>
+                    <figure><a href="/main/hotpink_1.do?p_code=${i.p_code}">
+                            <img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"  id="h00001" value="h00001"/></a>
                         <figcaption>
                             <h3>[lovely200%]</h3>
                             <p>누가봐도 사랑스러운 무드의 데님 멜빵 롱 원피스-A라인 핏으로 체형커버를 도와드려요.</p>
@@ -56,9 +59,20 @@
                     <span>사이좋은 데님멜빵롱원피스</span>
                     <span id="sal">15% sal!</span>
                     <span>29,800₩</span>
-                    <input type="hidden" id="h00001" value="h00001">
                 </li>
-                </a>
+                </c:forEach>--%>
+                <li col-md-3 class="products1">
+                    <figure><a href="/main/hotpink_1.do?p_code=h00001">
+                        <img src="/resources/img/dong/hotpinkdong/hotpink1동4.gif"  id="h00001" value="h00001"/></a>
+                        <figcaption>
+                            <h3>[lovely200%]</h3>
+                            <p>누가봐도 사랑스러운 무드의 데님 멜빵 롱 원피스-A라인 핏으로 체형커버를 도와드려요.</p>
+                        </figcaption>
+                    </figure>
+                    <span>사이좋은 데님멜빵롱원피스</span>
+                    <span id="sal">15% sal!</span>
+                    <span>29,800₩</span>
+                </li>
 
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동5.gif"/>
@@ -84,9 +98,9 @@
                     <span>29,800원</span>
                 </li>
 
-                <a href="/main/hotpink_2.do">
+
                 <li col-md-3 class="products1">
-                    <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동7.gif"/>
+                    <figure><a href="/main/hotpink_2.do?p_code=h00002"><img src="/resources/img/dong/hotpinkdong/hotpink1동7.gif"/></a>
                         <figcaption>
                             <h3>[comfortable][가성비600%!!]</h3>
                             <p>한번입으면 절대 벗지못하는 미친촉감 베스트상품 미친촉감 시리즈의 브이넥 반팔버전.</p>
@@ -96,7 +110,7 @@
                     <span id="sal">15% sal!</span>
                     <span>9800₩</span>
                     <input type="hidden" id="h00002" value="h00002">
-                </li></a>
+                </li>
 
                 <li col-md-3 class="products1">
                     <figure><img src="/resources/img/dong/hotpinkdong/hotpink1동8.gif"/>

@@ -18,8 +18,9 @@ public class PayController {
     private GalleryService gsrv;
 
     @Autowired
-    public PayController(MallsService msrv) {
+    public PayController(MallsService msrv, GalleryService gsrv) {
         this.msrv = msrv;
+        this.gsrv = gsrv;
     }
 
     // 커먼유니크
@@ -69,6 +70,7 @@ public class PayController {
 
         return mv;
     }
+/*
     // 핫핑1
     @RequestMapping(value = "main/hotpink_1")
     public ModelAndView hotpink1() {
@@ -80,8 +82,9 @@ public class PayController {
 
         return mv;
     }
+*/
 
- /*   // 핫핑1
+   /* // 핫핑1
     @RequestMapping(value = "main/hotpink_1")
     public ModelAndView hotpink1(String p_code) {
 
@@ -94,7 +97,7 @@ public class PayController {
 
         return mv;
     }
-
+*/
     // 핫핑2
     @RequestMapping(value = "main/hotpink_2")
     public ModelAndView hotpink2(String p_code) {
@@ -107,8 +110,8 @@ public class PayController {
         mv.addObject("i", gsrv.showOneItem(p_code));
 
         return mv;
-    }*/
-    // 핫핑2
+    }
+    /*// 핫핑2
     @RequestMapping(value = "main/hotpink_2")
     public ModelAndView hotpink2() {
 
@@ -118,7 +121,19 @@ public class PayController {
         mv.addObject("action", "/WEB-INF/jsp/main/hotpink_2.jsp"); // 뷰이름 지정
 
         return mv;
+    }*/
+
+    // 목록보기
+    @RequestMapping(value = "main/hotpink_1")
+    public ModelAndView list(String p_code){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("layout/layout_detail");
+
+        mv.addObject("action","../main/hotpink_1.jsp");
+        // 뷰로 넘길 떼이터를 modelanddview객체에 담음
+        mv.addObject("ilist", gsrv.showOneItem(p_code));
+
+        return mv;
+
     }
-
-
 }

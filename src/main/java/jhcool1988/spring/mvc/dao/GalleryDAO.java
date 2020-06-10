@@ -23,6 +23,7 @@ public class GalleryDAO {
     @Value("#{jdbc['selectOneGallerySQL']}") private String selectOneGallerySQL;
     @Value("#{jdbc['lastGalleryIdSQL']}") private String lastGalleryIdSQL;
     @Value("#{jdbc['selectOneItemSQL']}") private String selectOneItemSQL;
+    @Value("#{jdbc['selectItemSQL']}") private String selectItemSQL;
 
     @Autowired
     public GalleryDAO(JdbcTemplate jdbcTemplate) {
@@ -56,6 +57,12 @@ public class GalleryDAO {
         RowMapper<GalleryVO> mapper = new GalleryOneMapper();
 
         return jdbcTemplate.queryForObject(selectOneGallerySQL, params, mapper);
+    }
+
+    public List<ItemVO> selectItem() {
+        RowMapper<ItemVO> mapper = new ItemRowMapper();
+
+        return jdbcTemplate.query(selectItemSQL, mapper);
     }
 
     // 아이템상세 본문 출력
@@ -111,7 +118,26 @@ public class GalleryDAO {
             return gvo;
         }
     }
+    private class ItemRowMapper implements RowMapper<ItemVO> {
+        @Override
+        public ItemVO mapRow(ResultSet rs, int num) throws SQLException {
+            ItemVO pvo = new ItemVO(
+                    null,
+                    rs.getString("p_code"),
+                    rs.getString("p_name"),
+                    rs.getString("p_price"),
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+            );
 
+            return pvo;
+        }
+    }
     private class ItemOneMapper implements RowMapper<ItemVO> {
         @Override
         public ItemVO mapRow(ResultSet rs, int num) throws SQLException {

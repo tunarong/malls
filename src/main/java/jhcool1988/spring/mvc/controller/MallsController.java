@@ -1,6 +1,7 @@
 package jhcool1988.spring.mvc.controller;
 
 
+import jhcool1988.spring.mvc.service.GalleryService;
 import jhcool1988.spring.mvc.service.MallsService;
 import jhcool1988.spring.mvc.vo.MallsVO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,10 +16,12 @@ import java.util.ArrayList;
 public class MallsController {
 
     private MallsService msrv;
+    private GalleryService gsrv;
 
     @Autowired
-    public MallsController(MallsService msrv) {
+    public MallsController(MallsService msrv, GalleryService gsrv) {
         this.msrv = msrv;
+        this.gsrv = gsrv;
     }
 
     // 목록보기
@@ -68,6 +71,8 @@ public class MallsController {
 
         mv.setViewName("layout/layout");
         mv.addObject("action", "/WEB-INF/jsp/malls/hotpink.jsp"); // 뷰이름 지정
+
+        mv.addObject("ilist", gsrv.showItem());
 
         return mv;
     }

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page pageEncoding="UTF-8" %>
 
 <head>
@@ -60,12 +61,11 @@
 					</div>
 
 					<div class="col-xl-6">
-
 						<!-- Product Single - Price
                             ============================================= -->
 						<div style="padding-left: 20px;">
-							<div class="item_name">사이좋은 데님멜빵원피스<%--${i.p_name}--%></div><!-- Product Single - Price End -->
-							<div class="product-price"><del>52000<%--${i.p_price}--%></del> <ins class="sale_price">39000원</ins></div><!-- Product Single - Price End -->
+							<div class="item_name"><%--사이좋은 데님멜빵원피스--%>${i.p_name}</div><!-- Product Single - Price End -->
+							<div class="product-price"><del><%--52000--%>${i.p_price}</del> <ins class="sale_price">${i.p_saleprice}</ins></div><!-- Product Single - Price End -->
 
 
 							<!-- Product Single - Rating
@@ -96,7 +96,7 @@
 								<div class="option_select">
 									<ul class="select_ul">
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;19000원</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;h00002<%--${i.p_code}--%></li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;<%--h00002--%>${i.p_code}</li>
 										<li>&nbsp;&nbsp;&nbsp;&nbsp;<select class="select_box" name="color">
 											<option value="ivory">색상 선택</option>
 											<option value="ivory">베이지</option>
@@ -761,5 +761,4 @@
 	<button type="button" class="btn qnabtn rmt rmtqna"><a href="#qna"><i class="fa fa-question-circle-o fa-3x" style="color: white"></i></a></button>
 	<button type="button" class="btn btmbtn rmt rmtbtm"><a href="#bottom"><i class="fa fa-caret-down fa-3x" style="color: white"></i></a></button>
 </div>
-
 
